@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 using System.Net;
 
 // See https://aka.ms/new-console-template for more information
-var adtInstanceUrl = $"https://dgtwiniothack.api.weu.digitaltwins.azure.net";
+var adtInstanceUrl = "https://<your-digital-twin-hostname>";
 
 InteractiveBrowserCredentialOptions credentialOptions = new InteractiveBrowserCredentialOptions()
            {
