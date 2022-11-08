@@ -10,7 +10,7 @@ var adtInstanceUrl = "https://<your-digital-twin-hostname>";
 
 InteractiveBrowserCredentialOptions credentialOptions = new InteractiveBrowserCredentialOptions()
            {
-               TenantId = $"72f988bf-86f1-41af-91ab-2d7cd011db47"           };
+               TenantId = "<your-tenant-id>"           };
  
 var credential = new InteractiveBrowserCredential(credentialOptions);
 var client = new DigitalTwinsClient(new Uri(adtInstanceUrl), credential);
